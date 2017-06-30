@@ -1,0 +1,32 @@
+Exercise 6: Strings and Text
+
+A string is usually a bit of text you want to display to someone, or "export"
+out of the program you are writing. Python knows you want something to be a
+string when you put either " (double-quotes) or ' (single-quotes) around the
+text.
+You saw this many times with your use of print when you put the text you
+want to go inside the string inside " or ' after the print to print the
+string.
+
+Strings may contain the format characters you have discovered so far.
+You simply put the formatted variables in the string,
+and then a % (percent) character, followed by the variable.
+The only catch is that if you want multiple formats in your string to
+print multiple variables, you need to put them inside ( ) (parenthesis)
+separated by , (commas). It's as if you were telling me to buy you a
+list of items from the store and you said, "I want milk, eggs, bread,
+and soup." Only as a programmer we say, "(milk, eggs, bread, soup)."
+
+We will now type in a whole bunch of strings, variables, and formats,
+and print them. You will also practice using short abbreviated variable
+names. Programmers love saving time at your expense by using annoyingly
+short and cryptic variable names, so let's get you started reading and
+writing them early on.
+
+What is the difference between %r and %s?
+Use the %r for debugging, since it displays the "raw" data of the variable,
+but the others are used for displaying to users.
+
+What's the point of %s and %d when you can just use %r?
+The %r is best for debugging, and the other formats are for actually
+displaying to users.
